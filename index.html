@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Démarrage Vue.js avec Composition API</title>
+</head>
+<body>
+  <div id="app">
+    {{ message }}
+  </div>
+
+  <script type="module">
+    import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
+
+    createApp({
+      setup() {
+        const message = ref('Bonjour Vue.js avec Composition API !');
+        return { message };
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>

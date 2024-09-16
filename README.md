@@ -1,6 +1,6 @@
-# Explication Courte du Gabarit Vue.js avec Composition API
+# Explication du Gabarit Vue.js avec Composition API
 
-Voici une brève explication du gabarit pour une application Vue.js utilisant le **Composition API** avec les modules ESM via CDN.
+Voici une explication du gabarit pour une application Vue.js utilisant le **Composition API** avec les modules ESM via CDN.
 
 ---
 
